@@ -37,7 +37,7 @@ export default function Editor({ id = 'home', isUser = false, isSponsor = false 
         autofocus
         onMount={handleMount}
         onPersist={handlePersist}
-        showSponsorLink={!isSponsor}
+<!--         showSponsorLink={!isSponsor} -->
         onSignIn={isSponsor ? undefined : onSignIn}
         onSignOut={isUser ? onSignOut : undefined}
         {...fileSystemEvents}
